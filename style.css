@@ -77,7 +77,8 @@ h1 {
   font-family:'Courier New', Courier, monospace;
   letter-spacing: 2px;
   position: relative;
-  left: 30px;
+  bottom: 30px;
+  right: 100px;
 }
 
 #generate-board {
@@ -91,8 +92,8 @@ h1 {
   font-family:'Courier New', Courier, monospace;
   letter-spacing: 2px;
   position: relative;
-  bottom: 30px;
-  right: 40px;
+  bottom: 200px;
+  left: 44px;
 }
 
 #board-size {
@@ -102,8 +103,28 @@ h1 {
   font-family:'Courier New', Courier, monospace;
   letter-spacing: 2px;
   position: relative;
-  left: 150px;
+  left: 10px;
   top: 13px;
+}
+
+.dominio{
+  font-size: 25px;
+  font-weight: 300;
+  font-family:cursive;
+  position: relative;
+  top: 65px;
+  right: 280px;
+  color: #f4f5b0;
+}
+
+.information {
+  font-size: 25px;
+  font-weight: 300;
+  font-family:cursive;
+  position: relative;
+  bottom: 150px;
+  right: 300px;
+  color: #f4f5b0;
 }
 
 #board-size:hover {
